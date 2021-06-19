@@ -1,0 +1,38 @@
+{
+  "name": "fortknoxster-fkx-token",
+  "version": "1.0.0",
+  "description": "Contains FortKnoxsters' token related Ethereum smart contracts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "erc20-snapshot": "nodejs node_modules/erc20-snapshot/index.js"
+  },
+  "author": "FortKnoxster",
+  "homepage": "https://github.com/FortKnoxster/fortknoxster-token",
+  "keywords": [
+    "solidity",
+    "token",
+    "FKX",
+    "Knoxstertoken",
+    "fortknoxster",
+    "ethereum",
+    "smart",
+    "contracts",
+    "security",
+    "zeppelin"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^3.2.0",
+    "eslint": "^7.13.0"
+  },
+  "dependencies": {
+    "csv-parser": "^2.3.3",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^8.2.0",
+    "truffle": "^5.1.52",
+    "truffle-plugin-verify": "^0.4.1",
+    "truffle-privatekey-provider": "^1.5.0",
+    "web3": "^1.3.0"
+  }
+}
