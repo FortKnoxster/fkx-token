@@ -1,7 +1,7 @@
 {
-  "name": "fortknoxster-fkx-token",
+  "name": "fkx-token",
   "version": "1.0.0",
-  "description": "Contains FortKnoxsters' token related Ethereum smart contracts.",
+  "description": "Contains FortKnoxster's FKX token related Ethereum smart contracts.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,9 +13,10 @@
     "solidity",
     "token",
     "FKX",
-    "Knoxstertoken",
+    "Knoxstercoin",
     "fortknoxster",
     "ethereum",
+    "erc20",
     "smart",
     "contracts",
     "security",
